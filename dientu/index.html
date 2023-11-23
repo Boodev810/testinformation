@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <ul>
+               <a href="../index.html"> <li><i class="fa-solid fa-house" ></i></li> </a>
+                <li><button class="answer">Trả lời</button></li>
+                <li><p class="point">Điểm số: 0</p></li>
+            </ul>
+        </div>
+
+        <div class="input">
+            <p class="save__word"></p>
+            
+            <div class="user save">
+                <input type="text" placeholder="Nhập từ mới..." class="input__word">
+                <button  class="submit">Lưu từ</button>
+            </div>
+
+            <div class="user result">
+                <input type="text" placeholder="Nhập từ cần điền..." class="complete__word">
+                <button  class="submit__result">Kết quả</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

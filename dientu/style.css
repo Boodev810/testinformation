@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+html,body
+{
+    background-color: rgb(239, 238, 243);
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    
+}
+li 
+{
+    list-style: none;
+}
+.container
+{
+    max-width: 60%;
+    margin: auto;
+}
+
+.header > ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.save__word
+{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.input__word,.complete__word
+{
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    height: 40px;
+    border: 1px solid rgb(224, 223, 223);
+    padding-left: 5px;
+    transition: all 0.25s ease;
+}
+
+.input__word:focus, .complete__word:focus
+{
+    border-color: rgb(102, 102, 221);
+}
+
+.user
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.submit, .answer
+{
+    width: 100px;
+    margin-left: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color:  rgb(102, 102, 221);
+}
+
+.submit__result
+{
+    width: 100px;
+    margin-left: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color:  rgb(102, 102, 221);
+}
+
+.point
+{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(102, 102, 221);
+}
+
+.answer
+{
+    height: 25px;
+    border-radius: 10px;
+    
+}
+
+.result
+{
+    display: none;
+}
